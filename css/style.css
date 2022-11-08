@@ -1,0 +1,394 @@
+:root {
+    --second-color: #FFFFFF;
+    --brend-color: #2F303A;
+    --background-team:#F5F4FA;
+    --color-item-tel-mail:#757575;
+    --link-decoration:none;
+    --point:none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {margin: 0;}
+
+ul{margin: 0; padding: 0;}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+img{
+    display: block;
+}
+
+/* ----------------------BODY---------------------------- */
+
+.header{
+ background-color: var(--second-color);
+ padding-top: 24px;
+ padding-bottom: 25px;
+ border-bottom: 1px solid #ECECEC;
+}
+
+.container-nav-link{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+body{
+font-family: 'Roboto',sans-serif;
+color: #212121;
+}
+
+
+/* -------------------NAV--------------------------- */
+
+
+
+.nav-logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration:var(--link-decoration);
+    margin-right: 93px;
+}
+.nav-logo-title{
+    color: #2196F3;
+}
+.navigation-link{
+    margin-right: auto;
+}
+
+.nav-link{
+    gap: 50px;
+    list-style:var(--point) ;
+    display: flex;
+}
+.link{
+    text-decoration:var(--link-decoration) ;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+/* --------------------tel/mail--------------------------------- */
+.link-contact{
+    list-style:var(--point);
+    display: flex;
+
+}
+.contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--color-item-tel-mail);
+text-decoration:var(--link-decoration) ;
+}
+.contact:hover,
+.contact:focus{
+    color: #2196F3;
+}
+.contact-mail{
+    margin-right: 50px;
+}
+
+/* --------------------------title-------------------------------- */
+.title{
+    background-color:var(--brend-color);
+    padding-top: 195px;
+    padding-bottom: 200px;
+}
+.container-title{
+    padding: 0px;
+    max-width: 696px;
+
+}
+.title-header{
+    
+    margin-bottom: 35px;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn{
+    display:block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    background: #2196F3;
+    
+}
+/* ----------------------------BENEFITS--------------------------- */
+.benefits{ 
+  background-color:var(--second-color);
+  padding-top: 86px;
+  padding-bottom: 102px;
+}
+.benefits-list{
+    display: flex;
+    gap: 30px;
+}
+.text{
+    
+}
+
+.caption{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.item{
+    list-style:var(--point);
+    flex-basis: calc((100%-90px)/4);
+    
+}
+.item-header{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-item-tel-mail);
+}
+/* ----------------------------WORK--------------------------------- */
+.works{
+    background-color: var(--second-color);
+    padding-bottom: 94px;
+}
+.out-team{
+        padding-top: 94px;
+            padding-bottom: 94px;
+background-color: var(--background-team);
+}
+
+.work{
+    margin-bottom: 50px;
+    
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.work-photo{
+list-style:var(--point) ;
+display: flex;
+gap: 30px;
+}
+
+.work-out-team{
+
+}
+.work-team{
+    list-style:var(--point) ;
+    display: flex;
+    gap: 30px;
+    
+}
+.player{
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.player-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 30px;  
+}
+.player-teams{
+    box-shadow:0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.job{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-item-tel-mail);
+    margin-top: 10px;
+}
+/* ---------------------footer------------------------------------- */
+.basement{
+    background-color:var(--brend-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.webstudio{
+    margin-bottom: 20px;
+
+    display: block;
+    font-family: 'Raleway';
+    text-decoration:var(--link-decoration) ;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
+}
+.address{
+    margin-bottom: 9px;
+    
+}
+
+
+.address-title{
+    text-decoration:var(--link-decoration) ;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.link-contact-footer{
+    list-style: var(--point);
+}
+.connection{
+    text-decoration:var(--link-decoration) ;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.connection-mail{
+    display: block;
+    margin-bottom: 9px;
+
+}
+    
+
+/* ---------------------------PORTFOLIO-------------------- */
+.content{
+    background-color: var(--second-color);
+}
+.section-portfolio{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+
+.navigation{
+    list-style:var(--point) ;
+    margin-bottom: 50px ;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    
+    
+}
+.navigation-btn{
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+}
+.navigation-btn:hover,
+.navigation-btn:focus{
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+.portfolio{
+    list-style:var(--point) ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.photo-items{
+
+}
+.informetion{
+    background-color: #FFFFFF;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE ;
+    border-left: 1px solid #EEEEEE ;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+.photo{
+    text-decoration:var(--link-decoration);
+}
+
+.portfolio-items{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:#212121;
+    
+}
+
+
+.portfolio-item{
+    margin-top: 4px;
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+     color: var(--color-item-tel-mail);
+}

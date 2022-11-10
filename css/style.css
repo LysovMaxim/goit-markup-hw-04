@@ -138,8 +138,8 @@ align-items: center;
 .title{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), url(../images/phototitle.jpg);
-     background-repeat: no-repeat;
-
+     background-color: #C4C4C4;
+    background-repeat: no-repeat;
     max-width: 1600px;
     margin: 0 auto;
     padding-top: 195px;
@@ -186,8 +186,8 @@ align-items: center;
 /* ----------------------------BENEFITS--------------------------- */
 .benefits{ 
   background-color:var(--second-color);
-  padding-top: 86px;
-  padding-bottom: 102px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits-list{
     display: flex;
@@ -209,7 +209,18 @@ align-items: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.icons{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+ 
+}
+
 .item{
+
     list-style:var(--point);
     flex-basis: calc((100%-90px)/4);
     

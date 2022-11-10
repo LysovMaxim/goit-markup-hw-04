@@ -100,18 +100,48 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--color-item-tel-mail);
 text-decoration:var(--link-decoration) ;
+display: flex;
+align-items: center;
+
+
 }
 .contact:hover,
 .contact:focus{
     color: #2196F3;
 }
-.contact-mail{
-    margin-right: 50px;
+.contact:hover .envelop{
+    fill: #2196F3;
 }
+.contact:focus .envelop{
+    fill: #2196F3;
+}
+
+.contact-mail{
+    margin-right: 30px;
+}
+.envelop{
+    margin-right: 10px;
+    fill: #757575;
+}
+.smartphone{
+    fill: #757575;
+    margin-right: 10px;
+}
+.contact-tel:hover .smartphone{
+    fill: #2196F3;
+}
+.contact-tel:focus .smartphone {
+    fill: #2196F3;}
+    
 
 /* --------------------------title-------------------------------- */
 .title{
-    background-color:var(--brend-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(../images/phototitle.jpg);
+     background-repeat: no-repeat;
+
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 195px;
     padding-bottom: 200px;
 }
@@ -258,6 +288,54 @@ gap: 30px;
     color: var(--color-item-tel-mail);
     margin-top: 10px;
 }
+.networks{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.networks-plaer{
+    list-style: var(--point);
+}
+
+.networks-plaer-element{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-networks{
+    fill:#AFB1B8;
+}
+.networks-plaer-element:hover,
+.networks-plaer-element:focus{
+    background-color: #2196F3;
+}
+.networks-plaer-element:hover .social-networks{
+    fill: #ffffff;
+}
+
+
+
+/* ------------------------clients-------------------------- */
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-tile{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
 /* ---------------------footer------------------------------------- */
 .basement{
     background-color:var(--brend-color);

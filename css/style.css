@@ -307,6 +307,8 @@ gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 .social-networks{
     fill:#AFB1B8;
@@ -328,10 +330,39 @@ gap: 30px;
 }
 
 .clients-tile{
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.clients-items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.clients-atem{
+    list-style: var(--point);
+    
+    
+}
+.clients-link{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    display: block;
+    border-top: 1px solid #AFB1B8 ;
+    border-right: 1px solid #AFB1B8;
+    border-bottom: 1px solid #AFB1B8 ;
+    border-left: 1px solid #AFB1B8 ;
+    border-radius: 4px;
+
+    
+   
+        
+        
 }
 
 
@@ -383,6 +414,7 @@ gap: 30px;
 .connection-mail{
     display: block;
     margin-bottom: 9px;
+    
 
 }
     

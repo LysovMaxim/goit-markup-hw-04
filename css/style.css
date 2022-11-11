@@ -429,6 +429,7 @@ fill: #2196F3;
 }
 .footer-list{
     display: flex;
+    align-items: baseline;
 }
 
 
@@ -456,11 +457,14 @@ fill: #2196F3;
     margin-bottom: 9px; 
 }
 .join{
+
     margin-left: 70px;
     
 }
 
 .join-title{
+    display: flex;
+    align-items: baseline;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
